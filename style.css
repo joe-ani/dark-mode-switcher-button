@@ -1,0 +1,40 @@
+body {
+  transition: 600ms ease-in-out;
+  margin: 0;
+  overflow: hidden;
+}
+
+.container {
+    transition: 300ms ease-in-out;
+  height: 400vw;
+}
+
+body[data-toggle="true"] {
+  background: rgb(16, 19, 31);
+}
+
+.switch-button {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.549);
+  background: rgb(68, 55, 215);
+  width: 30px;
+  padding: 7px;
+  cursor: pointer;
+  display: flex;
+  border-radius: 50px;
+  justify-content: center;
+  height: 60px;
+}
+
+.dot {
+  position: relative;
+  transition: 300ms ease-in-out;
+  background: black;
+  border-radius: 50px;
+  width: 30px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.773);
+
+  height: 30px;
+}
